@@ -80,6 +80,6 @@ function teachClass(todayClass: Subjects): string {
 // Test cases
 console.log(teachClass("Math"));
 console.log(teachClass("History"));
-
+console.log(teachClass("History"));
 // The following line would cause a TypeScript error if uncommented
 // console.log(teachClass("Science")); // ❌ Argument of type '"Science"' is not assignable to parameter of type 'Subjects'
